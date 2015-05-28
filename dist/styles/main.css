@@ -1,0 +1,154 @@
+body {
+  font-family: Helvetica, Arial, Verdana;
+  color: #999;
+  font-weight: 100;
+  background: #eee
+}
+#container {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+h1 {
+  color: #555;
+  font-weight: 100;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.repo {
+  float: right;
+  font-size: 14px;
+  color: indigo;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+}
+
+.repo:hover {
+  color: blue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr td {
+  transition: background .2s linear;
+}
+
+table tr:hover td {
+  background: #eee;
+  cursor: default;
+}
+
+table td {
+  padding: 5px;
+  width: 20%;
+}
+
+table td:nth-child(2) {
+  width: 70%;
+}
+
+table td:nth-child(3) {
+  width: 10%;
+  text-align: right;
+  padding-right: 10px
+}
+
+form {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+form:after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+form .block {
+  float:left;
+}
+
+form .block {
+  width: 20%;
+}
+
+form .block:nth-child(2) {
+  width: 70%;
+}
+
+form .block:nth-child(3) {
+  width: 10%;
+}
+
+form label {
+  margin: 5px;
+  display: block;
+  width: 100%;
+  font-size: 12px;
+}
+
+form label, form input {
+  float:left;
+}
+
+form input {
+  border: 0px;
+  font-size: 15px;
+  color: #666;
+  margin: 0 5px;
+  padding: 5px;
+  outline: none;
+  width: 100%;
+  transition: background 0.2s linear;
+}
+
+
+form input:hover {
+  background: #eee;
+}
+
+button {
+  cursor: pointer;
+  border: 0px;
+  border-radius: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: 15px;
+  transition: background .2s linear;
+}
+
+button.add {
+  background: #555;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  float: right;
+  padding: 0px 20px;
+  margin: 15px 10px 0px 0px;
+}
+button:hover.add {
+  background: indigo;
+}
+
+button.remove {
+  background: #888;
+  color: #fff;
+  text-align: -1000px;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+button:hover.remove {
+  background: red;
+}
